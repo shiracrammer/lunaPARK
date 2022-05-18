@@ -16,6 +16,3 @@ CREATE TABLE employee
   PRIMARY KEY (ID),
   FOREIGN KEY (cardID) REFERENCES CARD(cardID)
 );
-
-drop table card
-drop table employee

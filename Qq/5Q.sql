@@ -1,0 +1,1 @@
+/*5*/SELECT name,card_num FROM  cardMEMBER  NATURAL JOIN  MEMBERS WHERE ROUTE_TYPE = 'kid';

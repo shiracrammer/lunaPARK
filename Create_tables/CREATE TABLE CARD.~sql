@@ -16,3 +16,4 @@ CREATE TABLE employee
   PRIMARY KEY (ID),
   FOREIGN KEY (cardID) REFERENCES CARD(cardID)
 );
+

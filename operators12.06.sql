@@ -4,3 +4,4 @@
 /*4*/select Route_type, count(*) as c_type from cardMEMBER GROUP BY Route_type ORDER BY c_type
 /*5*/select salary, count(*) as c_salary from EMPLOYEE GROUP BY salary ORDER BY c_salary
 /*6*/select role, count(*) as c_role from EMPLOYEE GROUP BY role ORDER BY c_role
+

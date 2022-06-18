@@ -19,3 +19,4 @@ CREATE TABLE card
   FOREIGN KEY (member_id) REFERENCES members(member_id)
 );
 
+
